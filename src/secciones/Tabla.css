@@ -1,0 +1,9 @@
+.tabla{
+    display: flex;
+    flex-direction: column;
+}
+.tabla--header{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1.4em 5em repeat(17,1fr);
+}
