@@ -1,0 +1,86 @@
+{
+    "id": "",
+    "fecha": "05/10/2020",
+    "data": [
+        {
+            "id":1,
+            "nombre": "Fernando",
+            "comentario": "Completo",
+            "ordenes": [
+                {
+                    "orden": "Broaster Pierna",
+                    "ensalada": 1,
+                    "arroz": 1,
+                    "mayonesa": 1,
+                    "mostaza": 1,
+                    "ketchup": 1,
+                    "tartara": 1,
+                    "aji": 1,
+                    "golf": 1,
+                    "aceituna": 1,
+                    "ocopa": 1,
+                    "perejil": 1,
+                    "precio": "5.00"
+                },
+                {
+                    "orden": "Broaster Pecho",
+                    "ensalada": 1,
+                    "arroz": 1,
+                    "mayonesa": 1,
+                    "mostaza": 1,
+                    "ketchup": 1,
+                    "tartara": 1,
+                    "aji": 1,
+                    "golf": 1,
+                    "aceituna": 1,
+                    "ocopa": 1,
+                    "perejil": 1,
+                    "precio": "5.00"
+                }
+            ],
+            "p_total":"10.00",
+            "recibido":1,
+            "cancelado":1
+        },
+        {
+            "id":2,
+            "nombre": "Adriana",
+            "comentario": "Completo",
+            "ordenes": [
+                {
+                    "orden": "H. Abuela",
+                    "ensalada": 1,
+                    "arroz": 1,
+                    "mayonesa": 1,
+                    "mostaza": 1,
+                    "ketchup": 1,
+                    "tartara": 1,
+                    "aji": 1,
+                    "golf": 1,
+                    "aceituna": 1,
+                    "ocopa": 1,
+                    "perejil": 1,
+                    "precio": "5.00"
+                },
+                {
+                    "orden": "Broaster Pecho",
+                    "ensalada": 1,
+                    "arroz": 1,
+                    "mayonesa": 1,
+                    "mostaza": 1,
+                    "ketchup": 1,
+                    "tartara": 1,
+                    "aji": 1,
+                    "golf": 1,
+                    "aceituna": 1,
+                    "ocopa": 1,
+                    "perejil": 1,
+                    "precio": "5.00"
+                }
+            ],
+            "p_total":"10.00",
+            "recibido":1,
+            "cancelado":1
+        }
+    ]
+}

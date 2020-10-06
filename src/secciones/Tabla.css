@@ -5,5 +5,19 @@
 .tabla--header{
     text-align: center;
     display: grid;
-    grid-template-columns: 1.4em 5em repeat(17,1fr);
+    grid-template-columns: 2em 1fr 120px calc(120px + 49em) 5em 6em 6em;
+}
+.tabla--row-cliente{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 2em 1fr 120px calc(120px + 49em) 5em 6em 6em; 
+}
+
+.tabla--column{
+    display: grid;
+    align-items: center;
+    margin: 0.2em;
+    background-color: steelblue;
+    color: white;
+    padding: 3px;
 }

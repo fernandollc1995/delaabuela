@@ -1,0 +1,9 @@
+.ordenes{
+    display:flex;
+    flex-direction: column;
+}
+.orden{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 120px 5em repeat(11,4em);
+}
