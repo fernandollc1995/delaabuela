@@ -1,7 +1,7 @@
 import React from 'react';
 import './ordenes.css';
 import Card from '@material-ui/core/Card';
-import Orden from './ordenes/Orden';
+import Orden from '../Orden/Orden';
 
 function RowOrden(props){
     const {orden} = props;

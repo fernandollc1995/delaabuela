@@ -1,12 +1,12 @@
 import React from 'react';
 import ordenes from '../datos/ordenes.json'
-import Id from './Id'
-import Nombre from './Nombre'
-import Comentario from './Comentario'
-import Ordenes from './Ordenes';
-import CuentaTotal from './CuentaTotal';
-import Recibido from './Recibido';
-import Cancelado from './Cancelado';
+import Id from './Id/Id'
+import Nombre from './Nombre/Nombre'
+import Comentario from './Comentario/Comentario'
+import Ordenes from './Ordenes/Ordenes';
+import CuentaTotal from './CuentaTotal/CuentaTotal';
+import Recibido from './Recibido/Recibido';
+import Cancelado from './Cancelado/Cancelado';
 
 function Row(props) {
     const { cliente } = props
