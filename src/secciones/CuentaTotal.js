@@ -1,11 +1,12 @@
 import React from 'react';
+import Card from '@material-ui/core/Card';
 
 function CuentaTotal(props){
     const {cuentaTotal} = props;
     return(
-        <div className="tabla--column cuenta-total">
+        <Card className="tabla--column cuenta-total">
             {cuentaTotal}
-        </div>
+        </Card>
     )
 }
 

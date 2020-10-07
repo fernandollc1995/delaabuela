@@ -8,7 +8,7 @@
             "comentario": "Completo",
             "ordenes": [
                 {
-                    "orden": "Broaster Pierna",
+                    "orden": "Pierna 5.00",
                     "ensalada": 1,
                     "arroz": 1,
                     "mayonesa": 1,
@@ -23,7 +23,7 @@
                     "precio": "5.00"
                 },
                 {
-                    "orden": "Broaster Pecho",
+                    "orden": "Pecho 5.00",
                     "ensalada": 1,
                     "arroz": 1,
                     "mayonesa": 1,
@@ -48,7 +48,7 @@
             "comentario": "Completo",
             "ordenes": [
                 {
-                    "orden": "H. Abuela",
+                    "orden": "Hamb. Abuela",
                     "ensalada": 1,
                     "arroz": 1,
                     "mayonesa": 1,
@@ -63,7 +63,7 @@
                     "precio": "5.00"
                 },
                 {
-                    "orden": "Broaster Pecho",
+                    "orden": "Pecho 5.00",
                     "ensalada": 1,
                     "arroz": 1,
                     "mayonesa": 1,

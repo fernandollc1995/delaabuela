@@ -1,11 +1,12 @@
 import React from 'react';
+import Card from '@material-ui/core/Card';
 
 function Id(props){
     const {id} = props;
     return(
-        <div className="tabla--column id">
+        <Card className="tabla--column id">
             {id}
-        </div>
+        </Card>
     )
 }
 

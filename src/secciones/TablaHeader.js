@@ -1,13 +1,13 @@
 import React from 'react';
-
+import Card from '@material-ui/core/Card';
 function TablaHeaderOrden() {
     const headers_orden = ["Orden", "C.Unid", "Ens", "Arr", "May", "Most", "Ket", "Tart", "Aji",
         "Golf", "Ace", "Ocop", "Per"];
     return (
-        <div className="tabla--column orden">
+        <div className="orden">
             {
                 headers_orden.map(header => (
-                    <div>{header}</div>
+                    <Card>{header}</Card>
                 ))
             }
         </div>
@@ -28,7 +28,7 @@ function TablaHeader() {
                         )
                     }
                     return (
-                        <div className="tabla--column">{header}</div>
+                        <Card className="tabla--column">{header}</Card>
                     )
                 }
                 )

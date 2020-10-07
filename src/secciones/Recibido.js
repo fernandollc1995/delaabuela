@@ -1,11 +1,12 @@
 import React from 'react';
+import Card from '@material-ui/core/Card';
 
 function Recibido(props){
     const {recibido} = props;
     return(
-        <div className="tabla--column recibido">
+        <Card className="tabla--column recibido">
             {recibido? "Si":"No"}
-        </div>
+        </Card>
     )
 }
 
