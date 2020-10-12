@@ -6,8 +6,8 @@ import './Comentario.css'
 function Comentario(props){
     const {comentario} = props;
     return(
-        <Card className="tabla--column comentario">
-            <TextareaAutosize class="form-nombre"defaultValue={comentario} />
+        <Card className={props.estilo}>
+            <TextareaAutosize className="form-nombre"defaultValue={comentario} />
         </Card>
     )
 }

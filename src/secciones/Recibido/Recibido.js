@@ -4,7 +4,7 @@ import Card from '@material-ui/core/Card';
 function Recibido(props){
     const {recibido} = props;
     return(
-        <Card className="tabla--column recibido">
+        <Card className={props.estilo}>
             {recibido? "Si":"No"}
         </Card>
     )

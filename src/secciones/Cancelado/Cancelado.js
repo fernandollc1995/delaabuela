@@ -4,7 +4,7 @@ import Card from '@material-ui/core/Card';
 function Cancelado(props){
     const {cancelado} = props;
     return(
-        <Card className="tabla--column cancelado">
+        <Card className={props.estilo}>
             {cancelado? "Si":"No"}
         </Card>
     )

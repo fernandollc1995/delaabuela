@@ -40,7 +40,7 @@
             ],
             "p_total":"10.00",
             "recibido":1,
-            "cancelado":1
+            "cancelado":null
         },
         {
             "id":2,

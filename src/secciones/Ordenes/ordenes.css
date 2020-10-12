@@ -7,11 +7,11 @@
     display: grid;
     grid-template-columns: 1fr 5em repeat(11,4em);
 }
-.orden>div{
+/* .orden>div{
     margin: 0.2em;
     background-color: steelblue;
     color: white;
     display: grid;
     align-items: centerx;
 
-}
+} */

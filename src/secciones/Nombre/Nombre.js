@@ -6,8 +6,8 @@ import './Nombre.css'
 function Nombre(props){
     const {nombre} = props;
     return(
-        <Card className="tabla--column nombre">
-            <TextareaAutosize class="form-nombre"defaultValue={nombre} />
+        <Card className={props.estilo}>
+            <TextareaAutosize className="form-nombre" defaultValue={nombre} />
             
         </Card>
     )
