@@ -25,7 +25,7 @@ function Orden(props) {
     }, []);
 
 
-    return (
+    return orden?(
         <Card className={props.estilo}>
             <Autocomplete
                 size="small"
@@ -44,7 +44,7 @@ function Orden(props) {
             />
 
         </Card>
-    )
+    ) : "no hay orden"
 }
 
 export default Orden;

@@ -1,11 +1,11 @@
-import React from 'react';
+import React,{useState}from 'react';
 import './ordenes.css';
 import Card from '@material-ui/core/Card';
 import Orden from '../Orden/Orden';
 
 function RowOrden(props){
     const {orden} = props;
-    return(
+    return orden? (
         <div className="orden">
             <Orden orden={orden.orden} estilo={props.estilo}/>
             <Card className={props.estilo}>{orden.precio}</Card>
@@ -21,14 +21,15 @@ function RowOrden(props){
             <Card className={props.estilo}>{orden.ocopa?"Si" :"No"}</Card>
             <Card className={props.estilo}>{orden.perejil?"Si" :"No"}</Card>
         </div>
-    )
+    ) :"No hay esa orden"
 }
 
 
 
 function Ordenes(props) {
-    const { ordenes } = props;
-    return (
+    const [ordenes, setOrdenes] = useState(props.ordenes)
+    // const { ordenes } = props;
+    return ordenes? (
         <div className="ordenes">
             {ordenes.map(orden =>
                 (
@@ -37,7 +38,7 @@ function Ordenes(props) {
             )
             }
         </div>
-    )
+    ): "No hay ordenes del clientes"
 }
 
 export default Ordenes;
